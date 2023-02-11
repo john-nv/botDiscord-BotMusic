@@ -1,11 +1,22 @@
 # Bot Discord
-Bot Music chạy nên nền tảng bot discord
+Bot nhạc được sử dụng bởi các câu lệnh đơn giản để phát nhạc. Tìm kiếm theo tên bài hát hoặc theo đường dẫn (URL youtube) để phát.
 
-Nó chạy dựa trên nền tảng discord.js, note.js,...
+## Xây dựng trên các nền thư viện chính
+- Discord.js
+- Node.js
 
-**- Nếu bạn là 1 người không am hiểu nhiều về lập trình bạn có thể thay đổi các thông số ở dưới để sử dụng.
-file ( config -> bot.json )**
+### Cấu hình sử dụng
 
+file : /config/bot.json
+```
+{
+    "game": "NameGame",
+    "prefix": "",
+    "token_bot": "TOKEN_BOT"
+}
+```
 * game ( trạng thái chơi game của bot )
 * prefix ( câu lệnh )
 * token_bot ( token bot )
+
+Chúc các bạn thành công.
