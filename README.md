@@ -2,7 +2,7 @@
 Bot nhạc được sử dụng bởi các câu lệnh đơn giản để phát nhạc. Tìm kiếm theo tên bài hát hoặc theo đường dẫn (URL youtube) để phát.
 
 ## Xây dựng trên các nền thư viện chính
-- Discord.js
+- Discord.js v12
 - Node.js
 
 ## Chức năng
